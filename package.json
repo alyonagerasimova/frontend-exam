@@ -1,0 +1,22 @@
+{
+  "name": "tasks-templ",
+  "version": "1.0.0",
+  "description": "tasks repo",
+  "main": "index.js",
+  "scripts": {
+    "start:all": "node index.js",
+    "start:task1": "node exam-tasks/task1.js",
+    "start:task2": "node exam-tasks/task2.js",
+    "start:task3": "node exam-tasks/task3.js",
+    "start:task4": "node exam-tasks/task4.js",
+    "start:task5": "node exam-tasks/task5.js",
+    "start:task6": "node exam-tasks/task6.js",
+    "start:task7": "node exam-tasks/task7.js",
+    "start:task8": "node exam-tasks/task8.js"
+  },
+  "author": "Alena Gerasimova",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^18.7.0"
+  }
+}
