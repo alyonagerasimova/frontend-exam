@@ -11,10 +11,10 @@ function task2(years, lines) {
         return NaN;
     }
 
-    function toDict(array) {
+    function toMap(array) {
         return array.reduce((acc, element) => {
             if (!acc[element]) {
-                acc[element] = 1
+                acc[element] = 1;
             } else {
                 acc[element] = acc[element] + 1;
             }
@@ -32,7 +32,7 @@ function task2(years, lines) {
         return maxCount;
     }
 
-    const commands = toDict(lines.map(line => line.split(' ').sort().join('')));
+    const commands = toMap(lines.map(line => line.split(' ').sort().join('')));
     return findMaxCountOfLine(commands);
 }
 
